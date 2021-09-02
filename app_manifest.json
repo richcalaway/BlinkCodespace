@@ -1,0 +1,12 @@
+{
+  "SchemaVersion": 1,
+  "Name": "BlinkCodespace",
+  "ComponentId": "e8da7cb3-dc42-496c-b6c1-d5b370a30e13",
+  "EntryPoint": "/bin/app",
+  "CmdArgs": [],
+  "Capabilities": {
+    "Gpio": [ "$TEMPLATE_LED" ],
+    "AllowedApplicationConnections": []
+  },
+  "ApplicationType": "Default"
+}
